@@ -1,43 +1,271 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
   <title>Luis Fernando Ruiz CV</title>
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Tooplate">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="style.css">
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./static/style.css">
 </head>
 
 <body>
-  
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
 
-    <!-- Our columns function in rows. -->
+      <a class="navbar-brand" href="#">
+        Luis Fernando Ruiz
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link smoothScroll">About Me</a>
+          </li>
+
+          <!-- <li class="nav-item">
+                    <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                </li> -->
+        </ul>
+
+        <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+          <a href="LuisFernandoRuiz_CV.pdf" class="custom-btn btn" download>Download Resume</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-lg-5 col-md-5 col-10">
+          <img src="#" class="img-fluid about-image" alt="LF-Ruiz">
+        </div>
+
+        <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+          <div class="hero-text">
+
+            <h1 class="hero-title"> Luis Fernando Ruiz</h1>
+            <h3>Updated 03/2021</h3>
+            
+
+            <!-- email button -->
+            <!-- <a href="luisfruizlopez@gmail.com" class="email-link">
+              luisfruizlopez@gmail.com
+            </a> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <h3 class="mb-4">About Me</h3>
+
+
+
+          <p>Team worker with great ability to learn and able to quickly adapt to a new environment. 
+            Seeking to apply my experience and education as a Data Analyst. 
+            Interested in KPI’s, Dashboard, ETL, Data Analysis, Data Engineering, Databases and Data Geomaps.
+          </p>
+          <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+            <li><strong>Full Name :</strong>Luis Fernando Ruiz </li>
+
+            <li><strong>City,State:</strong>Houston, Texas</li>
+
+            <li><strong>Website :</strong><a href="https://LF-Ruiz.github.io/">GitHub profile</a></li>
+            <li><strong>LinkedIn :</strong><a href="https://www.linkedin.com/in/luisfernandoruiz1/">LinkedIn Profile</a></li>
+            <li><strong>Email :</strong> luisfruizlopez@gmail.com </li>
+          </ul>
+        </div>
+
+        <!-- <div class="col-lg-5 mx-auto col-md-6 col-12">
+                <img src="images/mixes_graphs.png" class="about-image img-fluid" style="max-width:100%;" alt="image of graphs">
+            </div> -->
+
+      </div>
+      <div class="row about-third">
+        <div class="col-lg-12 col-md-12 col-12">
+          <h3>Tools/Databases</h3>
+          <p class = "text">pgAdmin, Mongo Compass, Visual Studio Code, Jupyter Notebook, Google Chrome: Docs, Sheets; Slack; Adobe
+            Suite: Photoshop and Illustrator; Microsoft: Outlook, Word, Excel, Teams and PowerPoint, PC/Mac, HTML,
+            Python, SQL, JavaScript, NumPY, Pandas, SQLAlchemy, VBA, Tables/Charts, Index/Match VLOOKUP
+            Well Master, SAP, Quorum, PostgresSQL, Mongodb
+          </p>
+        </div>
+        <!-- <div class="col-lg-6 col-md-6 col-12">
+          <h3>Projects</h3>
+          <a href="https://github.com/Kpearson72/UFO-Level-2" class="let_gry">https://github.com/Kpearson72/UFO-Level-2
+            <img src="images/UFO_Level_2.png" class="about-image  let_gry img-fluid" style="max-width:100%;"></img>
+          </a>
+          <br>
+          <br>
+          <a href="https://kpearson72.github.io/Web-Visualization-Dashboard-Latitude-/"
+            class="let_gry">https://kpearson72.github.io/Web-Visualization-Dashboard-Latitude-
+            <img src="images/Landing_Page.png" class="about-image  let_gry img-fluid"
+              style="max-width:100%; border: width 1px;;"></img>
+          </a>
+          <br>
+          <br>
+          <a href="https://github.com/Kpearson72/python-api-challenge"
+            class="let_gry">https://github.com/Kpearson72/python-api-challenge
+            <img src="images/N_hemisphere_maxtemp.png" class="about-image  let_gry img-fluid"
+              style="max-width:100%;"></img>
+          </a>
+          <br>
+          <br>
+          <a href="https://github.com/Kpearson72/Car_Industry_During_Covid"
+            class="let_gry">https://github.com/Kpearson72/Car_Industry_During_Covid
+            <img src="images/Covid_cars.png" class="about-image let_gry img-fluid" style="max-width:100%;"></img>
+          </a>
+        </div>
+        <!-- <div class="col-lg-2 col-md-2 col-12">
+              <h3>Projects</h3>
+              <img src="images/mixes_graphs.png" class="about-image  let_gry" style="max-width:100%;"> https://github.com/Kpearson72/etl-project-team4 
+              </img>
+              <br>
+              <br>
+              <img src="images/Landing_Page.png"class="about-image  let_gry" style="max-width:100%;">https://kpearson72.github.io/Web-Visualization-Dashboard-Latitude-/
+              </img>
+              <br>
+              <br>
+              <img src="images/N_hemisphere_maxtemp.png"class="about-image  let_gry" style="max-width:100%;">https://github.com/Kpearson72/python-api-challenge  
+              </img>
+              <br>
+              <br>
+              <img src="images/Covid_cars.png"class="about-image let_gry" style="max-width:100%;">https://github.com/Kpearson72/Car_Industry_During_Covid
+              </img>
+              </div> -->
+        <br>
+        <hr>
+        <br>
+        <!--<div class="col-lg-12 col-md-12 col-12">
+          <h3>Experience</h3>
+          <h7>Linguistic Interpreter/Data Annotator/Data Entry Specialist - 2019 - Present Welocalize, Houston, Texas
+          </h7>
+          <ul class="let_gry">
+            <li>Analyzed data for localization services, adhering to quality standards.</li>
+            <li>Employed knowledge of localized culture and language traits for analytic purposes.</li>
+            <li>Wrote and reported relevant bugs and errors through the client internal issue tracking database.</li>
+            <li>Corrected: PO, Contracts, Billing Schedules and Final Invoices</li>
+            <li>Updated contact information in Pantheon and Workday database.</li>
+            <li>Validated Invoices</li>
+          </ul>
+          <br>
+          <h7>Art Teacher - 2016-2019 Mildred Jenkins Elementary, Spring ISD, Spring, TX</h7>
+          <ul class="let_gry">
+            <li> Specialist teaching and managing students in Kindergarten through 5th grade.</li>
+            <li>Advocate of student competition while promoting creativity in student art projects.</li>
+            <li>Developed lesson plans on various art topics with focus on Science, Technology, Engineering, and Math
+            </li>
+          </ul>
+          <br>
+          <h7>Land Technician - 2013-2016 SM Energy Company, Houston, TX </h7>
+          <ul class="let_gry">
+            <li>Researched contract, lease, title and landowner issues while communicating results internally and
+              externally.</li>
+            <li>Provided analysis of Land contracts and leases.</li>
+            <li>Calculated and verified net revenue interests.</li>
+            <li>Prepared paperwork and correspondence to be sent to partners, operators, and leases.</li>
+            <li>Updated and organized relevant internal databases and files to ensure compliance.</li>
+            <li>Created spreadsheets to organize and update well data/interest, revenue received and upkeep of liability
+              insurance </li>
+            <li>Created powerpoint presentations that show overall prospect summary: Leasehold interests, maps,
+              obligations, wells, liability issues, concerns, and revenue through the years.</li>
+            <li>Administrative office work: typing, filing, scanning, order/purchasing supplies, scheduling/preparing
+              travel, meetings and luncheons.</li>
+            <li>Key Accomplishments: Organized and contributed to the entire Houston internal database, files, and
+              filing system</li>
+          </ul>
+          <br>
+          <h7>Fine Arts Dept. Head/Art Teacher - 2008-2012 Harmony School of Science, Sugarland, TX</h7>
+          <ul class="let_gry">
+            <li>Raised student knowledge, awareness and appreciation of the visual arts through creative instruction
+            </li>
+            <li>mplemented Science, Technology, Engineering, Math-ARTS initiatives.</li>
+            <li>Assessed and evaluated student’s design, creativity, and Texas Education and Knowledge (TEK) objectives.
+            </li>
+            <li>Key Accomplishments: Team Lead – 1st point of contact between teachers and administrators, resolved and
+              managed department issues. Discipline Management Committee – committee member involved in discipline
+              management of students.</li>
+          </ul>
+        </div>
+        <div class="col-lg-12 col-md-12 col-12">
+          <h3>Education</h3>
+          <h7>Certificate in Data Analytics and Visualization: Rice University – Continuing Education, Houston, TX
+            Present</h7>
+          <ul class="let_gry">
+            <li>Data Wrangling, Data Analytics, Data Visualization, Enterprise Coding</li>
+          </ul>
+
+          <h7>Bachelor of Fine Arts: University of Houston, Houston, TX</h7>
+          <ul class="let_gry">
+            <li> Studio Art/Graphic Communication, Cum Laude</li>
+          </ul>
+
+          <h7>Minor in Art History: University of Houston, Houston, TX</h7>
+          <ul class="let_gry">
+          </ul>
+
+          <h7>Region 4 Teacher Certification Program: Region 4 Education Center, Houston, TX</h7>
+          <ul class="let_gry">
+            <li>Specialization Art/ESL/Generalist EC-4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Our rows function in containers (grid created). -->
+  <!-- <div class="container">
+
+    Our columns function in rows.
     <div class="row">
 
-      <!-- Columns have 12 areas of width to work with. -->
+      Columns have 12 areas of width to work with.
 
       <div class="col-md-6 col-sm-6 col-xs-3">
         <P>insert image here</p>
-      
+
       </div>
 
-      <!-- One third of screen (4/12) -->
+      One third of screen (4/12)
       <div class="col-md-6 col-sm-6 col-xs-3">
         <h1> Luis Fernando Ruiz Lopez </h1>
       </div>
     </div>
-    
+
     <div class="row">
-      <div class="col-md-4" >
+      <div class="col-md-4">
         <h2><strong>Summary</strong></h2>
       </div>
     </div>
 
-  </div>
-  
+  </div> -->
+
 </body>
 
 </html>
